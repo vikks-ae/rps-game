@@ -8,22 +8,26 @@
 </head>
 <body>
 
-    <h1>Rock • Paper • Scissors</h1>
+    <h1 class="title">⚡ Rock • Paper • Scissors ⚡</h1>
 
-    <div class="scoreboard">
-        <p>You: <span id="user-score">0</span></p>
-        <p>Computer: <span id="comp-score">0</span></p>
-    </div>
+    <div class="container">
 
-    <div class="choices">
-        <button class="choice" data-choice="rock">🪨 Rock</button>
-        <button class="choice" data-choice="paper">📄 Paper</button>
-        <button class="choice" data-choice="scissors">✂️ Scissors</button>
-    </div>
+        <div class="scoreboard glass">
+            <p>You: <span id="user-score">0</span></p>
+            <p>Computer: <span id="comp-score">0</span></p>
+        </div>
 
-    <div class="result">
-        <p id="result-text">Make your move!</p>
-        <p id="comp-move"></p>
+        <div class="choices">
+            <button class="choice" data-choice="rock">🪨</button>
+            <button class="choice" data-choice="paper">📄</button>
+            <button class="choice" data-choice="scissors">✂️</button>
+        </div>
+
+        <div class="result glass">
+            <p id="result-text">Choose your move 👇</p>
+            <p id="comp-move"></p>
+        </div>
+
     </div>
 
     <script src="script.js"></script>
